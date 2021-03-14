@@ -1,0 +1,6 @@
+[submodule "samples/megadrum"]
+	path = samples/megadrum
+	url = git@github.com:antonioolf/MegaDrumX.git
+[submodule "samples/instrument"]
+	path = samples/instrument
+	url = git@github.com:antonioolf/instrument-commons.git
