@@ -4,3 +4,6 @@
 [submodule "samples/instrument"]
 	path = samples/instrument
 	url = git@github.com:antonioolf/instrument-commons.git
+[submodule "samples/percussao-virtual"]
+	path = samples/percussao-virtual
+	url = git@github.com:antonioolf/percussao-virtual.git
