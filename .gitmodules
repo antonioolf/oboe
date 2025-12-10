@@ -1,0 +1,6 @@
+[submodule "samples/instrument"]
+	path = samples/instrument
+	url = git@github.com:antonioolf/instrument-lib.git
+[submodule "samples/percussao"]
+	path = samples/percussao
+	url = git@github.com:antonioolf/percussao-instrument.git
