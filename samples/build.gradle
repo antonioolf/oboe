@@ -22,7 +22,7 @@ buildscript {
         compose_version = '1.8.3'
         core_version = "1.16.0"
         lifecycle_version = "2.9.2"
-        kotlin_version = '2.1.10'
+        kotlin_version = '2.2.10'
     }
 
     repositories {
@@ -30,11 +30,13 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.13.2'
+        classpath 'com.android.tools.build:gradle:9.0.0'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files.
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "org.jetbrains.kotlin:compose-compiler-gradle-plugin:$kotlin_version"
+
+        classpath "com.google.gms:google-services:4.4.4"
     }
 }
 
